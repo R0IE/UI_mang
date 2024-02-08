@@ -73,7 +73,7 @@ dropzones.forEach(dropzone => {
 
         pointCounter.textContent = `${rightDrops}`;
         errCounter.textContent = `${wrongDrops}`;
-        score.textContent = `= ${rightDrops / wrongDrops}`;
+        score.textContent = `= ${rightDrops / wrongDrops * 100}`;
 
         dropzone.classList.remove('hovered');
     });

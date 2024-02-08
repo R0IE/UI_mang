@@ -15,7 +15,7 @@
     </div>
 
     <div class="mainscreen">
-        
+
 
         <div class="containermain" bis_skin_checked="1">
             <div class="oke" bis_skin_checked="1">
@@ -28,9 +28,11 @@
                 </div>
             </div>
             <div class="buttons" bis_skin_checked="1">
-                <button  class="testing" onclick="window.location.href='https://r0ie.github.io/UI_mang/index2.html';">Info</button>
+                <button class="testing"
+                    onclick="window.location.href='https://r0ie.github.io/UI_mang/index2.html';">Info</button>
                 <button onclick="document.getElementById('middle').scrollIntoView();" class="testing">Mängi</button>
-                <button  class="testing" onclick="window.location.href='https://youtu.be/a_r3QouhG3E?feature=shared';">Skbidi</button>
+                <button class="testing"
+                    onclick="window.location.href='https://youtu.be/a_r3QouhG3E?feature=shared';">Skbidi</button>
             </div>
         </div>
     </div>
@@ -42,9 +44,7 @@
         <div class="animal-text">
             <h2>LÜKKA ÕIGE <br> LOOM PILDILE</h2>
         </div>
-        <div class="second-text">
-            <h2 class="punktid">ÖIGE/VALE RATIO: <span id="pointcounter">0</span>/<span id="errcounter">0</span></h2>
-        </div>
+
     </div>
 
 
@@ -57,10 +57,9 @@
 
 
 
-    
 
-    <div id="middle"  class="main_container">
-        <img src="" alt="">
+
+    <div id="middle" class="main_container">
         <div class="loom-1">
             <div class="dropzone" id="dropzone-1"></div>
         </div>
@@ -97,15 +96,20 @@
         <div class="loom-2">
             <div class="dropzone" id="dropzone-2"></div>
         </div>
-        <div class="second-text">
-            <h2 class="punktid">ÖIGE/VALE RATIO: <span id="pointcounter">0</span>/<span id="errcounter">0</span></h2>
+        <div class="victory">
+
+            <div class="dropzone">
+                <h2 class="punktid">ÖIGE: <span id="pointcounter">0</span> </h2>
+                <h2> VALE: <span id="errcounter">0</span></h2>
+                <h2>SKOOR: <span id="score">0</span></h2>
+            </div>
         </div>
     </div>
     <!-- Add a class "hidden" to initially hide the dropzones -->
-<div class="main_container hidden">
-    <!-- ... existing content ... -->
-  </div>
-  
+    <div class="main_container hidden">
+        <!-- ... existing content ... -->
+    </div>
+
 
     <div class="option_container">
         <div class="option" id="item-1" draggable="true">Worm</div>
@@ -123,7 +127,7 @@
     </div>
 
 
-    
+
     <script src="main.js"></script>
 
 

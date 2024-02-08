@@ -334,13 +334,22 @@ html {
     height: 100%;
 }
 .victory{
-    background: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWtwYWt2ZDFvZDdjdnFyM2U1OXN5bXJyNHNpeW9zOWF6MnpnbGVrYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5jT0jaNDsM6Ik7X9yq/giphy.gif) no-repeat;
-    color: #f60000;
-    height: 7100%;
-
-  
-
-    
+    background: url(images/giphy-ezgif.com-resize.gif);
+    text-align: center;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;    
+}
+.victory{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.victory .dropzone{
+    background: #000000 ;
+    outline: darkblue dashed;
 }
 #dropzone-1, #dropzone-2, #dropzone-3, #dropzone-4, #dropzone-5, #dropzone-6, #dropzone-7, #dropzone-8, #dropzone-9, #dropzone-10, #dropzone-11, #dropzone-12 {
     height: 100%;

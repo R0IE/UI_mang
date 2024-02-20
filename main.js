@@ -74,7 +74,9 @@ dropzones.forEach(dropzone => {
         pointCounter.textContent = `${rightDrops}`;
         errCounter.textContent = `${wrongDrops}`;
         score.textContent = `= ${rightDrops / wrongDrops * 100}`;
-
+        if (score.textContent= `= infinity`){
+             score.textContent=`= 1500`
+        }
         dropzone.classList.remove('hovered');
     });
 });
@@ -84,4 +86,3 @@ function hideAllDropzones() {
         dropzone.parentElement.style.display = 'none';
     });
 }
-
